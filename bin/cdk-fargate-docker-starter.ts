@@ -38,5 +38,10 @@ const stackName = `${appName}-${environment}`;
 
 const dockerProperties = environment === 'dev' ? dockerPropertiesDev : dockerPropertiesProd;
 const stackTags = environment === 'dev' ? stackTagsDev : stackTagsProd;
+console.log('create stack');
+
 createStack(app, stackName, dockerProperties, dnsProperties, stackTags, stackProperties);
+
+console.log('synth');
+
 app.synth();

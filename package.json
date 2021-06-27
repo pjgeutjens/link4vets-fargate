@@ -15,8 +15,8 @@
     "@aws-cdk/aws-certificatemanager": "^1.13.1",
     "@aws-cdk/aws-ecs": "^1.13.1",
     "@aws-cdk/aws-route53": "^1.13.1",
+    "@types/node": "^15.12.5",
     "source-map-support": "^0.5.13",
     "typescript": "^3.6.4"
-  },
-  "dependencies": {}
+  }
 }
