@@ -1,0 +1,22 @@
+{
+  "name": "cdk-fargate-docker-starter",
+  "author": "Markus Lindqvist",
+  "license": "MIT",
+  "version": "0.1.0",
+  "bin": {
+    "cdk-fargate-docker-starter": "dist/bin/cdk-fargate-docker-starter.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-certificatemanager": "^1.13.1",
+    "@aws-cdk/aws-ecs": "^1.13.1",
+    "@aws-cdk/aws-route53": "^1.13.1",
+    "source-map-support": "^0.5.13",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
